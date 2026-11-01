@@ -107,7 +107,7 @@ function Veladora({ delay = 0 }: { delay?: number }) {
       </div>
       <div className="h-1 w-0.5 bg-foreground/70" />
       <div className="flex h-36 w-20 flex-col items-center rounded-t-lg rounded-b-md border-2 border-marigold/60 bg-wax/90 p-1.5 shadow-lg sm:h-44 sm:w-24">
-        <img src={gordito} alt="Gordito en veladora" loading="lazy" width={816} height={816}
+        <img src={gordito} alt="Gordito en veladora" loading="lazy" width={1440} height={1920}
           className="aspect-square w-full rounded-md border-2 border-rosa object-cover" />
         <span className="mt-2 font-script text-lg text-secondary">Gordito</span>
         <Marigold size={20} />
@@ -152,7 +152,7 @@ function Index() {
             <div className="absolute inset-x-0 top-[22%] flex flex-col items-center px-10 text-center">
               <p className="font-script text-2xl text-rosa sm:text-3xl">En memoria de</p>
               <h1 className="font-display text-6xl text-marigold drop-shadow-lg sm:text-8xl">Gordito</h1>
-              <img src={gordito} alt="Gordito, nuestro perrito" width={816} height={816}
+              <img src={gordito} alt="Gordito, nuestro perrito" width={1440} height={1920}
                 className="grow-hover mt-4 w-[46%] rounded-full border-4 border-marigold object-cover glow-marigold" />
             </div>
           </section>
