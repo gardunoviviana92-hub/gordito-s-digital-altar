@@ -1,6 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
-import gordito from "@/assets/gordito.jpg";
+import gorditoAsset from "@/assets/gordito.jpg.asset.json";
+
+const gordito = gorditoAsset.url;
 
 export const Route = createFileRoute("/")({
   head: () => ({
